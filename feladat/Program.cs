@@ -19,7 +19,7 @@ namespace feladat
 
             inp();
         }
-        static async void inp()
+        static void inp()
         {
             Console.WriteLine("Mit szeretnél csinálni? (vásárolni, nézelődni, törölni)");
             string input = Console.ReadLine();
